@@ -10,9 +10,11 @@ public class HalloweenTest {
         int b= 10;
         int total = 0;
         
-        if(a > b ) {
-            total += a+b;
+        if(b > a ) {
+            total += a + b;
             System.out.println(total);
-        
+        }else{
+            System.out.println(a);
+        }
     }
 }
