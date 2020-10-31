@@ -5,5 +5,14 @@ public class HalloweenTest {
         System.out.println("What the hack!!!");
         System.out.println("No woman no cry");
         System.out.println("Why do you have existential questions ");
+        
+        int a =9;
+        int b= 10;
+        int total = 0;
+        
+        if(a > b ) {
+            total += a+b;
+            System.out.println(total);
+        
     }
 }
